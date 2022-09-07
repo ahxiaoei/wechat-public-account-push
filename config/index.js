@@ -11,7 +11,7 @@ export const config = {
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "e3f2f4f0ace5fbbb63b27fd8a3a69278",
+  APP_SECRET: "2cfa504d43d448675246d8937f3340c6",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
