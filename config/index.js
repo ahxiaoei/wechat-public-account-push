@@ -47,9 +47,9 @@ export const config = {
       // 想要发送的人的名字
       name: "师妹",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oIVC_6i65rDdoFFFmAvTsMacROt4",
+      id: "oIVC_6l2NLuLxFJ258tl8ltywcU0",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "rZiVYUDr7p5MPI2VxcO54ogeTX-hlhiHkMIDR1K-gDk",
+      useTemplateId: "SOa9rScqcnVXqYSKJdNXNGX13ec1oV-h8_SZX8n2PJo",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -115,12 +115,14 @@ export const config = {
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
     * */
   CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    {"keyword": "birthday_message", date: "1994-04-29"},
+    // 第一次加微信
+    {"keyword": "first_wechat", date: "2022-03-21"},
+    // 第一次见面
+    {"keyword": "first_meet", date: "2022-04-16"},
+    // 第一次牵手
+    {"keyword": "first_hand", date: "2022-05-28"},
+    // 师妹的生日
+    {"keyword": "lover_birthday", date: "1994-04-29"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
